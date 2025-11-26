@@ -4,6 +4,8 @@ using UnityEngine.UIElements;
 using UnityEngine.Scripting.APIUpdating;
 using System.Runtime.CompilerServices;
 using UnityEditor.Tilemaps;
+using UnityEditor.SearchService;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -73,7 +75,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Spike")
         {
-            Destroy(this.gameObject);
+            SceneManager.LoadScene("SampleScene");
         }
     }
 }

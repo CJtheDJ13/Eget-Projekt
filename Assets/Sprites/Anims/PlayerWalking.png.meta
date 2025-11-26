@@ -109,15 +109,20 @@ TextureImporter:
       name: PlayerWalking_1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
+        x: 19
+        y: 16
         width: 9
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 4.5, y: 7.5}
+        - {x: -4.5, y: 7.5}
+        - {x: -4.5, y: 4.5}
+        - {x: -4.5, y: -7.5}
+        - {x: 4.5, y: -7.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -139,7 +144,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 4.5, y: 7.5}
+        - {x: -4.5, y: 7.5}
+        - {x: -4.5, y: 4.5}
+        - {x: -4.5, y: -7.5}
+        - {x: 4.5, y: -7.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -150,23 +160,27 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerWalking_3
+      name: PlayerWalking_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 16
-        width: 9
+        x: 5
+        y: 0
+        width: 5
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 2.5, y: 7.5}
+        - {x: -2.5, y: 7.5}
+        - {x: -2.5, y: -7.5}
+        - {x: 2.5, y: -7.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1202f65a1704fab4f94e50aa8f5d6bdb
-      internalID: -600675857
+      spriteID: fb4abc3f2fd0ec84e84a111a7848b5d4
+      internalID: -18153330
       vertices: []
       indices: 
       edges: []
@@ -185,12 +199,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       PlayerWalking_0: -18153330
       PlayerWalking_1: -609750105
       PlayerWalking_2: -1313480433
-      PlayerWalking_3: -600675857
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
