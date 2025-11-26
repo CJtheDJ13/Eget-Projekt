@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Spike
+  m_Name: SpikeTile
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 6682738439518977790, guid: 3c7a064566f4762479c508d73082f670, type: 3}
+  m_Sprite: {fileID: -5159362228428509745, guid: 76fc73f34e38b80489b2c1de1eb167c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

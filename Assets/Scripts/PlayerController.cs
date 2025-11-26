@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     float jumpForce = 5f;
 
     [SerializeField]
-    GameObject groundChecker;
+    GameObject GroundChecker;
 
     [SerializeField]
     LayerMask groundLayer;
@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        bool isGrounded = Physics2D.OverlapCircle(groundChecker.transform.position, 1f, groundLayer);
+        bool isGrounded = Physics2D.OverlapCircle(GroundChecker.transform.position, 1f, groundLayer);
 
         if (Input.GetKey(KeyCode.Space) && isGrounded == true || Input.GetKey(KeyCode.W) && isGrounded == true)
         {
